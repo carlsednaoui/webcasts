@@ -2,20 +2,30 @@
 [intro]
 
 ### Video
+In this 17 minute video, Rob (a Thinkful mentor) and Carl (a Thinkful employee pretending to be a student) will walk you through basic HTML and HTML5 tag.
+
+Throughout the video you'll learn about some of the challenges beginners run into when learning HTML. You'll also get a basic understanding of a few HTML5 tags and how to implement them.
+
 [![How to use HTML5 Video](http://img.youtube.com/vi/4zZvQGRaQWQ/0.jpg)](http://www.youtube.com/watch?v=4zZvQGRaQWQ)
 
 ### The code
 
-![HTML to HTML5 image](http://i.imgur.com/wM5FZdZ.png)
+HTML
+[![HTML to HTML5 - HTML Image](http://i.imgur.com/QLoWimz.png)](http://i.imgur.com/QLoWimz.png)
+
+CSS
+[![HTML to HTML5 - CSS Image](http://i.imgur.com/ETQrvTJ.png)](http://i.imgur.com/ETQrvTJ.png)
 
 #### Original code
+
+[View the JS Fiddle here](http://jsfiddle.net/carlsednaoui/759qz/)
 
 __HTML__
 
         <h1>Carl Sednaoui Resume</h1>
         <p class="big">714 Happy Street, New York City 10000</p>
         <div>
-            <ul class="contacts">
+            <ul class="contact">
                 <li><a href="http://www.twitter.com/carlsednaoui">@carl</a></li>
                 <li><a href="mailto:me@thinkful.com">email</a></li>
                 <li><a href="http://www.thinkful.com/">website</a></li>
@@ -40,7 +50,7 @@ __HTML__
             </ul>
         </div>
 
-        <section>
+        <div>
             <h1>Education</h1>
             <h2>Hacker School - Summer 2013</h2>
             <ul>
@@ -55,7 +65,7 @@ __HTML__
                 <li>Code code code</li>
                 <li>Meet great developers</li>
             </ul>
-        </section>
+        </div>
 
 __CSS__
 
@@ -89,6 +99,7 @@ __CSS__
 
 #### Final code
 
+[View the JS Fiddle here](http://jsfiddle.net/carlsednaoui/s2rJa/)
 __HTML__ 
 
         <header>
@@ -139,7 +150,6 @@ __HTML__
 
 __CSS__
 
-        <style>
         h1 {
             margin-bottom: 5px;
         }
@@ -148,4 +158,18 @@ __CSS__
             margin-top: 0;
             font-size: 16px;
         }
-        </style>
+
+### Resources
+Here are a few resources to help you continue your learning.
+
+Short-form resources
+
+- [Web Platform's HTML Tutorials](http://docs.webplatform.org/wiki/html/tutorials)
+- [HTML5 Flowchart](http://html5doctor.com/downloads/h5d-sectioning-flowchart.png)
+- [Designing a blog with HTML5](http://html5doctor.com/designing-a-blog-with-html5/)
+
+Long-form resources
+
+- [CodeCademy basic HTML track](http://www.codecademy.com/tracks/web)
+- [Dive into HTML5 book](http://diveinto.html5doctor.com/)
+- [Udacity HTML5 game development course](https://www.udacity.com/course/cs255)
